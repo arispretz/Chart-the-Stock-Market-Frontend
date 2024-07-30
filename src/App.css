@@ -1,0 +1,61 @@
+body {
+  background-color: #BEB5A3;
+  color: #260094;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  margin-right: 3.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 15rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #260094;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.chart-container {
+  width: 90%;
+  max-width: 800px;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.footer {
+  padding-top: 2rem;
+  color: crimson;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  input, button {
+    width: 100%;
+  }
+
+  .chart-container {
+    width: 95%;
+  }
+}
